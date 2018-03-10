@@ -1,0 +1,44 @@
+body {
+  font:"Lato", sans-serif;
+  color: #666756;
+  background:#fff;
+ 
+
+}
+.profile {
+  margin-top: 0px;
+  text-align: right;
+  text-transform: uppercase;
+  float:right;
+}
+.profile-name {
+  margin: 0;
+  font-size: 2.123unit;
+ 
+}
+.profile-education {
+  margin: 2px;
+  font-size: 0.700unit;
+  
+}
+.blue
+{
+color:blue;
+}
+.center {
+    text-align: center;
+    font-size: 167%;
+}
+
+.border-teal
+{
+border: 10px;
+border-radius: 5px;
+border-style: groove;
+}
+.center-button
+{
+display: block !important;
+margin: 10px auto;
+
+}

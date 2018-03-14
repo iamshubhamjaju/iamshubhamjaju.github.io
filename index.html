@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+<head>
+<script>
+	var name="";
+	function hello()
+	{
+		name=prompt("enter your name:", "name");
+		alert( name+",welcome to my page!");
+
+	}
+	function goodbye()
+	{
+		alert("goodbye"+name+".sorry to see you go");
+	}
+
+</script></head>
+<body onLoad="hello();" onUnload="goodbye();">
       <!-- Meta -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
